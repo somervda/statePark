@@ -6,6 +6,7 @@ state parks.
 ### Components
 
 - Python
-- Flask
+- pandas: pip install pandas
+- Flask: pip install Flask
 - sqlLite2
   - database of park information
