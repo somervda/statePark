@@ -4,7 +4,7 @@ import sqlite3
 # Define file and database names
 csv_filename = 'stateParks.csv'  # Replace with your actual CSV path
 db_filename = 'stateParks.db'
-table_name = 'parks'
+table_name = 'park'
 
 # Step 1: Read CSV using pandas
 df = pd.read_csv(csv_filename)
