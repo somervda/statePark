@@ -77,3 +77,13 @@ INFO:werkzeug:192.168.1.117 - - [05/Apr/2025 13:12:51] "GET /rvParksByDistance/4
 INFO:werkzeug:192.168.1.117 - - [05/Apr/2025 13:14:43] "[33mGET /rvparksByDistance/40.176415/-75.304980/35 HTTP/1.1[0m" 404 -
 INFO:werkzeug:192.168.1.117 - - [05/Apr/2025 13:14:51] "GET /rvParksByDistance/40.176415/-75.304980/35 HTTP/1.1" 200 -
 INFO:werkzeug:192.168.1.117 - - [05/Apr/2025 13:14:57] "GET /rvParksByDistance/40.176415/-75.304980/150 HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.16.143:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.16.246 - - [06/Apr/2025 11:14:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.16.246 - - [06/Apr/2025 11:14:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.16.246 - - [06/Apr/2025 11:15:19] "GET /parksByDistance/40.176415/-75.304980/10 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.16.246 - - [06/Apr/2025 11:15:41] "GET /parksByDistance/40.176415/-75.304980/20 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.16.246 - - [06/Apr/2025 11:16:07] "GET /parksByDistance/40.176415/-75.304980/30 HTTP/1.1" 200 -
