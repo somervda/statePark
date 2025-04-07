@@ -10,3 +10,9 @@ state parks.
 - Flask: pip install Flask
 - sqlLite2
   - database of park information
+
+### Docker
+```
+sudo docker build --debug -t stateparks 
+sudo docker run -it -p 5000:5000 stateparks
+```
